@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.h2{
+  text-align: center;
+  font-family:cursive;
+  color: #259b9b;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.navH {
+  font-size: x-large;
+  font-weight: bold;
+  color: #108d8d;
+  float: left;
+}
+
+#dl{
+    /* float: right; */
+   margin-bottom: 15px;
+}
+
+.In,#dl{
+  color: #108d8d;
+  border: 1px solid #cfb311;
+  border-bottom: solid 1px #108d8d;
+  margin-right: 5px;
+  border-radius: 5px;
+  padding-bottom: 0px;
+}
+
+.topic{
+  margin-top: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: x-large;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  text-decoration-line:underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #108d8d;
+}
+h2{
+  text-align: center;
+}
+.formfield * {
+  vertical-align: text-top;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+small {
+  visibility: hidden;
+  padding-left: 5px;
+}
+
+#task,
+.task-style {
+  border: #cfb311 solid 1px;
+  font-size: larger;
+  outline: none;
+  border-bottom: #108d8d solid 2px;
+}
+#mode{
+  float: right;
+  font-size: 30px;
+  padding: none;
+  margin-left: -50px;
+  border-radius: 40%;
+}
+#listPdf{
+  text-align: center;
+}
+ul{
+  display: inline-block;
+  text-align: left;
+}
+
+li{
+  list-style-type: circle;
+}
+#add {
+  background-color: #cfb311;
+  color: white;
+  border-radius: 50%;
+  margin-top: 10px;
+  font-size: x-large;
+  text-align: center;
+}
+
+.show:hover+small {
+  visibility: visible;
+}
+
+button:hover {
+  font-size: large;
+}
+#dl:hover{
+  font-size: small;
+  background-color: rgb(247, 250, 224);
+}
+nav {
+  padding: 15px;
+  background-color: rgba(245, 243, 230, 0.99);
+  height: 20px;
+  border-bottom: #108d8d solid;
+}
+
+.navA {
+  margin-right: 35px;
+  float: right;
+  text-decoration: none;
+}
+
+.navA:hover {
+  border-bottom: crimson solid 2px;
+  font-size: large;
+}
+
+@media screen and (max-width: 480px) {
+  #task{
+    width: 75%;
+  }
+  .task-style{
+    width:75%;
+  }
+}
